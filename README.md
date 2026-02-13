@@ -33,6 +33,9 @@ nepali-phonetic-converter/
 ├── nato_phonetic_alphabet.csv
 └── README.md
 ```
+---
+## 📸 Example Output
+
 
 ---
 
@@ -53,11 +56,21 @@ python main.py
 
 ### 💻 Example Usage
 
-**Enter a word:** ` MOMO `
-
-**Output:**
+Enter a word: `momo`
 
 `['Momo', 'Oho', 'Momo', 'Oho']`
+
+---
+
+Enter a word: `SuDiN`
+
+`['Samosa', 'Uff', 'Daal', 'Iku-Iku', 'Nepal']`
+
+---
+
+Enter a word: `aalu86`
+
+`Please enter only letters A–Z.`
 
 ---
 
