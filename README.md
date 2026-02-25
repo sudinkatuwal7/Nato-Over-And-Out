@@ -1,6 +1,6 @@
-# 🇳🇵 Nepali Phonetic Alphabet Converter
+# 🇳🇵 NATO Phonetic Alphabet Converter
 
-A simple Python command-line program that converts user input into a **Nepali phonetic alphabet** using common Nepali word equivalents.
+A simple Python command-line program that converts user input into the **NATO phonetic alphabet** using data from a CSV file.
 
 This project demonstrates:
 - Reading data from a CSV file
@@ -11,7 +11,7 @@ This project demonstrates:
 ---
 
 ## ✨ Features
-- Converts any English word into Nepali phonetic code words
+- Converts any word into Nepali NATO phonetic code words
 - Reads phonetic mappings from a `.csv` file
 - Handles invalid input gracefully
 - Simple and beginner-friendly Python project
@@ -82,7 +82,11 @@ It creates a dictionary like:
 
 `{'A': 'Aama', 'B': 'Bhat', 'C': 'Chiya', ...}`
 
-It converts each letter of the input word into its phonetic equivalent
+- It converts each letter of the input word into its phonetic equivalent
+
+- Uses try/except to handle invalid characters
+
+- Recursively calls the function if the user enters invalid input
 
 ---
 
